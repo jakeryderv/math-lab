@@ -1,2 +1,18 @@
+# Local environment and configuration
+.venv/
 .env
+.env.*
+!.env.example
 .envrc
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Package build output
+/build/
+/dist/
+*.egg-info/
+
+# Jupyter autosaves
+.ipynb_checkpoints/
